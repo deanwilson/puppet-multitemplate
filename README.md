@@ -35,7 +35,7 @@ the first existing match it concatenates the templates together when used as bel
 
 This Puppet function was originally written by 
 [R.I.Pienaar](http://www.devco.net/) and raised as 
-[Allow multiple sources for a template and only use the first template if it exists](projects.puppetlabs.com/issues/1818)
+[Allow multiple sources for a template and only use the first template if it exists](http://projects.puppetlabs.com/issues/1818)
 in the Puppet Issue tracker.
 
 I've added all the usual module boilerplate scaffolding with permission.
