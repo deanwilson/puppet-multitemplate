@@ -21,7 +21,7 @@ module Puppet::Parser::Functions
   EOD
   ) do |args|
     contents    = nil
-    environment = self.compiler.environment.to_s
+    environment = self.compiler.environment
     sources     = args
 
     sources.each do |file|
