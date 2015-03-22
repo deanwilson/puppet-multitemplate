@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "author": "deanwilson",
   "summary": "Puppet function for selecting from multiple template sources",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "source": "https://github.com/deanwilson/puppet-multitemplate.git",
   "project_page": "https://github.com/deanwilson/puppet-multitemplate",
   "issues_url": "https://github.com/deanwilson/puppet-multitemplate/issues",
