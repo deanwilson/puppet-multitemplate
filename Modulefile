@@ -1,8 +1,0 @@
-name 'dwilson-multitemplate'
-version '1.0.0'
-source 'git://github.com/deanwilson/puppet-multitemplate.git'
-author 'dwilson'
-license 'Apache 2.0'
-summary 'Puppet function for selecting from multiple template sources'
-description 'Puppet function for selecting from multiple template sources'
-project_page 'https://github.com/deanwilson/puppet-multitemplate'
