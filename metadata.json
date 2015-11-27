@@ -1,6 +1,6 @@
 {
   "name": "deanwilson-multitemplate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "deanwilson",
   "summary": "Puppet function for selecting from multiple template sources",
   "license": "Apache-2.0",
@@ -10,5 +10,22 @@
   "description": "Puppet function for selecting from multiple template sources",
   "dependencies": [
   
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat"
+    },
+    {
+      "operatingsystem": "Ubuntu"
+    },
+    {
+      "operatingsystem": "Debian"
+    },
+    {
+      "operatingsystem": "Fedora"
+    },
+    {
+      "operatingsystem": "CentOS"
+    }
   ]
 }

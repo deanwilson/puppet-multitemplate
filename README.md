@@ -42,3 +42,7 @@ I've added all the usual module boilerplate scaffolding with permission.
 
 Note:
 I will be more than happy to take this module down when the functionality is in core Puppet.
+
+### License ###
+
+Apache 2.0 - [Dean Wilson](http://www.unixdaemon.net)
