@@ -4,7 +4,7 @@ The `multitemplate` Puppet function allows you to list multiple template
 sources and use the first one that exists.
 
 [![Build Status](https://travis-ci.org/deanwilson/puppet-multitemplate.svg?branch=master)](https://travis-ci.org/deanwilson/puppet-multitemplate)
-[![Puppet Forge](https://img.shields.io/puppetforge/v/deanwilson/multitemplate.svg)](https://forge.puppetlabs.com/deanwilson/deprecate)
+[![Puppet Forge](https://img.shields.io/puppetforge/v/deanwilson/multitemplate.svg)](https://forge.puppetlabs.com/deanwilson/multitemplate)
 
     class ssh::config {
     
@@ -45,6 +45,12 @@ I've added all the usual module boilerplate scaffolding with permission.
 
 Note:
 I will be more than happy to take this module down when the functionality is in core Puppet.
+
+## Installation
+
+You can install this module from [PuppetForge](https://forge.puppet.com/):
+
+    puppet module install deanwilson-multitemplate
 
 ### License ###
 
