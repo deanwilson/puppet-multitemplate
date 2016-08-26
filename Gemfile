@@ -2,9 +2,9 @@
 source 'https://rubygems.org'
 
 group :development, :test do
-  gem 'rake'
-  gem 'rspec'
-  gem 'puppetlabs_spec_helper'
+  gem 'rake', '~> 11.2.0'
+  gem 'rspec', '~> 3.5.0'
+  gem 'puppetlabs_spec_helper', '~> 1.1.1'
   gem 'json'
 end
 
