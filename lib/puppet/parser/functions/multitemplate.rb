@@ -7,7 +7,7 @@ module Puppet::Parser::Functions
 
       class ssh::config {
 
-        file { "/etc/ssh/sshd_config" :
+        file { '/etc/ssh/sshd_config':
           ensure  => present,
           mode    => '0600',
           content => multitemplate( "ssh/${::fqdn}",
@@ -40,7 +40,7 @@ module Puppet::Parser::Functions
       end
     end
 
-    raise Puppet::ParseError, "multi_source_template: No match found for files: #{sources.join(', ')}" if contents == nil
+    raise Puppet::ParseError, "multitemplate: No match found for files: #{sources.join(', ')}" if contents == nil
 
     contents
   end
