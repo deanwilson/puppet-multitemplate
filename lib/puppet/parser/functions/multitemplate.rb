@@ -7,7 +7,7 @@ module Puppet::Parser::Functions
 
       class ssh::config {
 
-        file { "/etc/ssh/sshd_config" :
+        file { '/etc/ssh/sshd_config':
           ensure  => present,
           mode    => '0600',
           content => multitemplate( "ssh/${::fqdn}",
