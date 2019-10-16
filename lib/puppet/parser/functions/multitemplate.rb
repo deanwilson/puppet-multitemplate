@@ -40,7 +40,7 @@ module Puppet::Parser::Functions
       end
     end
 
-    raise Puppet::ParseError, "multi_source_template: No match found for files: #{sources.join(', ')}" if contents == nil
+    raise Puppet::ParseError, "multitemplate: No match found for files: #{sources.join(', ')}" if contents == nil
 
     contents
   end
