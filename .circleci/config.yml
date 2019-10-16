@@ -1,0 +1,15 @@
+version: 2.1
+jobs:
+  build:
+    docker: 
+      - image: circleci/ruby:2.5.0
+    steps:
+      - checkout
+      - run:
+          name: "Install the dependencies"
+          command: bundle install --jobs=4 --retry=3
+          environment:
+            PUPPET_GEM_VERSION: "~> 6.10.0"
+      - run: 
+          name: "Run the specs"
+          command: bundle exec rake spec
