@@ -1,0 +1,19 @@
+name: Rubocop linter
+
+on:
+  push:
+    branches-ignore:
+      - 'master'
+      - 'main'
+
+jobs:
+  lint:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Rubocop linter
+        uses: andrewmcodes/rubocop-linter-action@v3.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
