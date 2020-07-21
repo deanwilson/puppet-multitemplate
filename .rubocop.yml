@@ -6,3 +6,6 @@ Style/Documentation:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+Bundler/DuplicatedGem:
+  Enabled: false
