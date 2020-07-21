@@ -1,7 +1,7 @@
 module Puppet::Parser::Functions
   require 'erb'
 
-  newfunction(:multitemplate, :type => :rvalue, :doc => <<-EOD
+  newfunction(:multitemplate, type: :rvalue, doc: <<-EOD
     A Puppet function that allows you to list multiple template sources and
     use the first one that exists.
 
@@ -26,14 +26,14 @@ module Puppet::Parser::Functions
 
     sources.each do |file|
       Puppet.debug("Looking for #{file} in #{environment}")
-      if filename = Puppet::Parser::Files.find_template(file, environment)
+      if Puppet::Parser::Files.find_template(file, environment)
         wrapper = Puppet::Parser::TemplateWrapper.new(self)
         wrapper.file = file
 
         begin
           contents = wrapper.result
-        rescue => detail
-          raise Puppet::ParseError, "Failed to parse template %s: %s" % [file, detail]
+        rescue => e
+          raise Puppet::ParseError, "Failed to parse template %s: %s" % [file, e]
         end
 
         break
