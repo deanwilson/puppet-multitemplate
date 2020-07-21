@@ -35,7 +35,7 @@ module Puppet::Parser::Functions
       begin
         contents = wrapper.result
       rescue => e
-        raise Puppet::ParseError, "Failed to parse template %s: %s" % [file, e]
+        raise Puppet::ParseError, "Failed to parse template #{file}: #{e}"
       end
     end
 
