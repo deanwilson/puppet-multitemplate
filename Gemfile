@@ -1,4 +1,3 @@
-#!ruby
 source 'https://rubygems.org'
 
 group :development, :test do
@@ -9,8 +8,8 @@ group :development, :test do
   gem 'rubocop', '~> 0.88.0', require: false
 end
 
-if puppetversion = ENV['PUPPET_GEM_VERSION']
-  gem 'puppet', puppetversion, :require => false
+if (puppetversion = ENV['PUPPET_GEM_VERSION'])
+  gem 'puppet', puppetversion, require: false
 else
-  gem 'puppet', :require => false
+  gem 'puppet', require: false
 end

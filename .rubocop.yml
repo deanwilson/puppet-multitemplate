@@ -1,2 +1,17 @@
+AllCops:
+  NewCops: enable
+
+Bundler/DuplicatedGem:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/Documentation:
+  Enabled: false
+
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+Style/RescueStandardError:
+  EnforcedStyle: implicit
