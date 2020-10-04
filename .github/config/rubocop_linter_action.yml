@@ -1,1 +1,5 @@
 rubocop_fail_level: 'fatal'
+
+versions:
+  - rubocop
+  - rubocop-rspec

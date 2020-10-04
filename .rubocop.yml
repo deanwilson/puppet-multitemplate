@@ -1,3 +1,6 @@
+require:
+  - rubocop-rspec
+
 AllCops:
   NewCops: enable
 
@@ -15,3 +18,9 @@ Style/FrozenStringLiteralComment:
 
 Style/RescueStandardError:
   EnforcedStyle: implicit
+
+RSpec/DescribeClass:
+  Enabled: false
+
+RSpec/ImplicitSubject:
+  Enabled: false
