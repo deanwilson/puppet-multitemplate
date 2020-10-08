@@ -3,7 +3,7 @@
 The `multitemplate` Puppet function allows you to list multiple template
 sources and use the first one that exists.
 
-[![Build Status](https://travis-ci.org/deanwilson/puppet-multitemplate.svg?branch=master)](https://travis-ci.org/deanwilson/puppet-multitemplate)
+[![Build Status](https://travis-ci.org/deanwilson/puppet-multitemplate.svg?branch=main)](https://travis-ci.org/deanwilson/puppet-multitemplate)
 [![Puppet Forge](https://img.shields.io/puppetforge/v/deanwilson/multitemplate.svg)](https://forge.puppetlabs.com/deanwilson/multitemplate)
 
     class ssh::config {
