@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 group :development, :test do
   gem 'json'
-  gem 'puppetlabs_spec_helper', '~> 7.4.0'
+  gem 'puppetlabs_spec_helper', '~> 8.0.0'
   gem 'rake', '~> 13.2.1'
   gem 'rspec', '~> 3.13.0'
   gem 'rubocop', '~> 1.66.0', require: false
